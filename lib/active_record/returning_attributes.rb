@@ -23,8 +23,8 @@ module ActiveRecord
     end
 
     def self.active_record_6_0_0_rc1_tested_only
-      unless ActiveRecord.version == Gem::Version.new('5.2.0')
-        warn 'ActiveRecord::ReturningAttributes was only tested on ActiveRecord 5.2.0 and might not work with your version.'
+      unless ActiveRecord.version == Gem::Version.new('6.0.0.rc1')
+        warn 'ActiveRecord::ReturningAttributes was only tested on ActiveRecord 6.0.0.rc1 and might not work with your version.'
       end
     end
 
